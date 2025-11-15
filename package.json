@@ -1,6 +1,6 @@
 {
   "name": "@mdkva/textkit",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "MDKVA TextKit is a lightweight API providing essential text utilities — slugify, truncate, title case, reverse, and random ID generation — designed for developers and automation projects.",
   "license": "MIT",
   "author": "MDKVA <contact@mdkva.com>",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/mdkva/textkit.git"
   },
-  "homepage": "https://mdkva.com/",
+  "homepage": "https://mdkva.com/apis/textkit/",
   "keywords": [
     "mdkva",
     "string",
@@ -24,6 +24,10 @@
     "titlecase",
     "randomid",
     "reverse",
+    "lowercase",
+    "uppercase",
+    "starts with letter",
+    "repeat text",
     "textkit"
   ],
   "scripts": {
