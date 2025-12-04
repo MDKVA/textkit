@@ -1,6 +1,8 @@
 ````markdown
 **MDKVA TextKit** is a lightweight, developer-friendly library of string utilities. Perfect for quick text transformations, automation, and web or app development.
 
+---
+
 ## Features
 - **slugify** — Convert a string into a URL-friendly slug.
 - **titleCase** — Capitalize the first letter of each word.
@@ -12,67 +14,67 @@
 - **startsWithLetter** — Check whether a string starts with a specific letter.
 - **repeatText** — Repeat a string a given number of times.
 
+---
+
 ## Installation
 ```bash
 npm i @mdkva/textkit
 ````
 
+---
+
 ## Usage
 ```js
-import {
-    slugify,
-    titleCase,
-    truncate,
-    randomID,
-    reverse,
-    lowercase,
-    uppercase,
-    startsWithLetter,
-    repeatText
-} from '@mdkva/textkit';
+import { TextKit } from '@mdkva/textkit';
 
 const text = "MDK Visionary Automations simplifies life through human-centered innovation that reclaims time, strengthens focus, and supports meaningful personal growth.";
 
 // Test Slugify
-console.log('Slugify:', slugify(text));
+console.log('Slugify:', TextKit.slugify(text));
 
 // Test TitleCase
-console.log('TitleCase:', titleCase(text));
+console.log('TitleCase:', TextKit.titleCase(text));
 
 // Test Truncate
-console.log('Truncate (30 chars):', truncate(text, 30));
+console.log('Truncate (30 chars):', TextKit.truncate(text, 30));
 
 // Test RandomID
-console.log('RandomID (8 chars):', randomID(8));
-console.log('RandomID (12 chars):', randomID(12));
+console.log('RandomID (8 chars):', TextKit.randomID(8));
+console.log('RandomID (12 chars):', TextKit.randomID(12));
 
 // Test Reverse
-console.log('Reverse:', reverse(text));
+console.log('Reverse:', TextKit.reverse(text));
 
 // Test Lowercase
-console.log('Lowercase:', lowercase(text));
+console.log('Lowercase:', TextKit.lowercase(text));
 
 // Test Uppercase
-console.log('Uppercase:', uppercase(text));
+console.log('Uppercase:', TextKit.uppercase(text));
 
 // Test startsWithLetter
-console.log('Starts With "M"?', startsWithLetter(text, 'M'));
-console.log('Starts With "A"?', startsWithLetter(text, 'A'));
+console.log('Starts With "M"?', TextKit.startsWithLetter(text, 'M'));
+console.log('Starts With "A"?', TextKit.startsWithLetter(text, 'A'));
 
 // Test repeatText
-console.log('Repeat Text (2 times):', repeatText("MDKVA ", 2));
+console.log('Repeat Text (2 times):', TextKit.repeatText("MDKVA ", 2));
 ```
+
+---
 
 ## Contributions
 This project is open source and contributions are welcome!
 * GitHub Repository: [https://github.com/mdkva/textkit](https://github.com/mdkva/textkit)
 * Feel free to fork, submit issues, or create pull requests.
 
+---
+
 ## Links
 * **npm Package:** [https://www.npmjs.com/package/@mdkva/textkit](https://www.npmjs.com/package/@mdkva/textkit)
 * **Company Website:** [mdkva.com](https://mdkva.com/)
 * **Contact:** [contact@mdkva.com](mailto:contact@mdkva.com)
 * **Author:** [github.com/MDKDanyalk](https://github.com/MDKDanyalk)
+
+---
 
 ## License
 MIT License
