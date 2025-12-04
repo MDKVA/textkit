@@ -1,6 +1,8 @@
 ````markdown
 **MDKVA TextKit** is a lightweight, developer-friendly library of string utilities. Perfect for quick text transformations, automation, and web or app development.
 
+---
+
 ## Features
 - **slugify** — Convert a string into a URL-friendly slug.
 - **titleCase** — Capitalize the first letter of each word.
@@ -12,10 +14,14 @@
 - **startsWithLetter** — Check whether a string starts with a specific letter.
 - **repeatText** — Repeat a string a given number of times.
 
+---
+
 ## Installation
 ```bash
 npm i @mdkva/textkit
 ````
+
+---
 
 ## Usage
 ```js
@@ -63,16 +69,22 @@ console.log('Starts With "A"?', startsWithLetter(text, 'A'));
 console.log('Repeat Text (2 times):', repeatText("MDKVA ", 2));
 ```
 
+---
+
 ## Contributions
 This project is open source and contributions are welcome!
 * GitHub Repository: [https://github.com/mdkva/textkit](https://github.com/mdkva/textkit)
 * Feel free to fork, submit issues, or create pull requests.
+
+---
 
 ## Links
 * **npm Package:** [https://www.npmjs.com/package/@mdkva/textkit](https://www.npmjs.com/package/@mdkva/textkit)
 * **Company Website:** [mdkva.com](https://mdkva.com/)
 * **Contact:** [contact@mdkva.com](mailto:contact@mdkva.com)
 * **Author:** [github.com/MDKDanyalk](https://github.com/MDKDanyalk)
+
+---
 
 ## License
 MIT License

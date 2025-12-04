@@ -55,3 +55,19 @@ export function startsWithLetter(str, letter) {
 export function repeatText(str, times = 1) {
   return str.repeat(times);
 }
+
+// Namespaced object export (putting above functions work in textkit export will break anyone already using them...)
+export const TextKit = {
+  slugify,
+  titleCase,
+  truncate,
+  randomID,
+  reverse,
+  lowercase,
+  uppercase,
+  startsWithLetter,
+  repeatText
+};
+
+// camelCase convention... for those that don't prefer PascalCase
+export const textKit = TextKit;
