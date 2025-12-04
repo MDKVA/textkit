@@ -25,48 +25,38 @@ npm i @mdkva/textkit
 
 ## Usage
 ```js
-import {
-    slugify,
-    titleCase,
-    truncate,
-    randomID,
-    reverse,
-    lowercase,
-    uppercase,
-    startsWithLetter,
-    repeatText
-} from '@mdkva/textkit';
+import { TextKit } from '@mdkva/textkit';
 
 const text = "MDK Visionary Automations simplifies life through human-centered innovation that reclaims time, strengthens focus, and supports meaningful personal growth.";
 
 // Test Slugify
-console.log('Slugify:', slugify(text));
+console.log('Slugify:', TextKit.slugify(text));
 
 // Test TitleCase
-console.log('TitleCase:', titleCase(text));
+console.log('TitleCase:', TextKit.titleCase(text));
 
 // Test Truncate
-console.log('Truncate (30 chars):', truncate(text, 30));
+console.log('Truncate (30 chars):', TextKit.truncate(text, 30));
 
 // Test RandomID
-console.log('RandomID (8 chars):', randomID(8));
-console.log('RandomID (12 chars):', randomID(12));
+console.log('RandomID (8 chars):', TextKit.randomID(8));
+console.log('RandomID (12 chars):', TextKit.randomID(12));
 
 // Test Reverse
-console.log('Reverse:', reverse(text));
+console.log('Reverse:', TextKit.reverse(text));
 
 // Test Lowercase
-console.log('Lowercase:', lowercase(text));
+console.log('Lowercase:', TextKit.lowercase(text));
 
 // Test Uppercase
-console.log('Uppercase:', uppercase(text));
+console.log('Uppercase:', TextKit.uppercase(text));
 
 // Test startsWithLetter
-console.log('Starts With "M"?', startsWithLetter(text, 'M'));
-console.log('Starts With "A"?', startsWithLetter(text, 'A'));
+console.log('Starts With "M"?', TextKit.startsWithLetter(text, 'M'));
+console.log('Starts With "A"?', TextKit.startsWithLetter(text, 'A'));
 
 // Test repeatText
-console.log('Repeat Text (2 times):', repeatText("MDKVA ", 2));
+console.log('Repeat Text (2 times):', TextKit.repeatText("MDKVA ", 2));
 ```
 
 ---
