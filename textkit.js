@@ -22,8 +22,8 @@ export function truncate(str, length = 50, ending = '...') {
   return str.length > length ? str.substring(0, length) + ending : str;
 }
 
-// Generates a random alphanumeric ID of specified length
-export function randomID(length = 8) {
+// Generates a random alphanumeric Id of specified length
+export function randomId(length = 8) {
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   return Array.from({ length }, () =>
     chars.charAt(Math.floor(Math.random() * chars.length))
@@ -61,7 +61,7 @@ export const TextKit = {
   slugify,
   titleCase,
   truncate,
-  randomID,
+  randomId,
   reverse,
   lowercase,
   uppercase,

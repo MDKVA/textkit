@@ -4,15 +4,15 @@
 ---
 
 ## Features
-- **slugify** — Convert a string into a URL-friendly slug.
-- **titleCase** — Capitalize the first letter of each word.
-- **truncate** — Shorten text to a specified length with an optional ending.
-- **randomID** — Generate a random alphanumeric string of a given length.
-- **reverse** — Reverse all characters in a string.
-- **lowercase** — Convert all characters to lowercase.
-- **uppercase** — Convert all characters to uppercase.
-- **startsWithLetter** — Check whether a string starts with a specific letter.
-- **repeatText** — Repeat a string a given number of times.
+- **TextKit.slugify** — Convert a string into a URL-friendly slug.
+- **TextKit.titleCase** — Capitalize the first letter of each word.
+- **TextKit.truncate** — Shorten text to a specified length with an optional ending.
+- **TextKit.randomID** — Generate a random alphanumeric string of a given length.
+- **TextKit.reverse** — Reverse all characters in a string.
+- **TextKit.lowercase** — Convert all characters to lowercase.
+- **TextKit.uppercase** — Convert all characters to uppercase.
+- **TextKit.startsWithLetter** — Check whether a string starts with a specific letter.
+- **TextKit.repeatText** — Repeat a string a given number of times.
 
 ---
 
@@ -29,33 +29,33 @@ import { TextKit } from '@mdkva/textkit';
 
 const text = "MDK Visionary Automations simplifies life through human-centered innovation that reclaims time, strengthens focus, and supports meaningful personal growth.";
 
-// Test Slugify
+// TextKit.slugify
 console.log('Slugify:', TextKit.slugify(text));
 
-// Test TitleCase
+// TextKit.titleCase
 console.log('TitleCase:', TextKit.titleCase(text));
 
-// Test Truncate
+// TextKit.truncate
 console.log('Truncate (30 chars):', TextKit.truncate(text, 30));
 
-// Test RandomID
+// TextKit.randomID
 console.log('RandomID (8 chars):', TextKit.randomID(8));
 console.log('RandomID (12 chars):', TextKit.randomID(12));
 
-// Test Reverse
+// TextKit.reverse
 console.log('Reverse:', TextKit.reverse(text));
 
-// Test Lowercase
+// TextKit.lowercase
 console.log('Lowercase:', TextKit.lowercase(text));
 
-// Test Uppercase
+// TextKit.uppercase
 console.log('Uppercase:', TextKit.uppercase(text));
 
-// Test startsWithLetter
+// TextKit.startsWithLetter
 console.log('Starts With "M"?', TextKit.startsWithLetter(text, 'M'));
 console.log('Starts With "A"?', TextKit.startsWithLetter(text, 'A'));
 
-// Test repeatText
+// TextKit.repeatText
 console.log('Repeat Text (2 times):', TextKit.repeatText("MDKVA ", 2));
 ```
 
@@ -72,7 +72,6 @@ This project is open source and contributions are welcome!
 * **npm Package:** [https://www.npmjs.com/package/@mdkva/textkit](https://www.npmjs.com/package/@mdkva/textkit)
 * **Company Website:** [mdkva.com](https://mdkva.com/)
 * **Contact:** [contact@mdkva.com](mailto:contact@mdkva.com)
-* **Author:** [github.com/MDKDanyalk](https://github.com/MDKDanyalk)
 
 ---
 
